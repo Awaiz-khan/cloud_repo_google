@@ -1,0 +1,25 @@
+/* Style for the barcode scanner container */
+#barcode-scanner {
+    width: 100%;
+    max-width: 320px; /* Default maximum width for larger screens */
+    margin: 0 auto;
+    margin-bottom: 10px; /* Add margin at the bottom to separate from the result */
+  }
+  
+  /* Style for the scanned barcode result */
+  .scanned-barcode {
+    text-align: center;
+    font-size: 24px; /* Increase font size for larger result display */
+  }
+  
+  /* Media query for smaller screens (e.g., mobile phones) */
+  @media (max-width: 767px) {
+    /* Adjust styles for smaller screens */
+    #barcode-scanner {
+      max-width: 240px; /* Reduce maximum width for smaller screens */
+    }
+    .scanned-barcode {
+      font-size: 18px; /* Adjust font size for smaller screens */
+    }
+  }
+  
